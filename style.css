@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+body {
+    font-family: 'Gabarito', cursive;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-image:url(asset/087bfdb1-1e1a-4835-ab0e-11393ab083d1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Container {
+    width: 91%;
+    max-width: 68px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container img{
+    width: 200px;
+    border-radius: 75%;
+    border: 3px solid #0095f8;
+}
+
+
+.link-item {
+    width: 40%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    color: #002aff;
+    text-decoration: none;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+.icon{
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.link-item p {
+    margin-right: 60px;
+}
+
+.link-item:hover {
+    transition: cubic-bezier(.07, 1.41, .82,1.41) 0,2s;
+    transform: scale(1.02);
+
+    background-color:rgb(32, 0, 177) ;
+}
